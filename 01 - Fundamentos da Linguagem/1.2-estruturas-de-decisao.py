@@ -112,7 +112,7 @@ revisao_do_var_novo = "impedido"
 match revisao_do_var_novo:
     case "legal":
         print("Gol confirmado")
-    case "impedido:
+    case "impedido":
         print("Gol anulado por impedimento")
     case "mao":
         print("Gol anulado por toque de mão")
